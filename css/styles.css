@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: monospace;
+}
+h2 {
+    font-family: Avocado;
+    font-weight: italic;
+    font-size: bolder;
+    text-decoration:underline;
+    text-transform: lowercase;
+    color: black;
+    letter-spacing: 0.08em;
+}
+@font-face {
+    font-family: "Avocado";
+    src: url('Avocado.ttf') format('embedded-opentype'),
+    url('Avocado.ttf') format('opentype');
+}
+ul {
+    font-size: large;
+}
+h1 {
+    letter-spacing: 0.625em;
+    font-family: Avocado;
+    font-size: bold;
+}
+@font-face {
+    font-family: "Avocado";
+    src: url('Avocado.ttf') format('embedded-opentype'),
+    url('Avocado.ttf') format('opentype');
+}
+li {
+    font-size: bolder;
+    color: blue;
+}
+h3 {
+    color: blue;
+}
+a:visited{
+    color: #7851A9;
+}
+a:hover{
+    color: #000000;
+    background-color: #7851A9;
+}
+a:active{
+    background-color: #7851A9;
+}
